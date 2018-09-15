@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CB / RB / TB"
+        android:textSize="25sp" />
+
+    <CheckBox
+        android:id="@+id/cb_ios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="iOs" />
+
+    <CheckBox
+        android:id="@+id/cb_android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Android" />
+
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rb_m"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Masculino" />
+
+        <RadioButton
+            android:id="@+id/rb_f"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Feminino" />
+
+    </RadioGroup>
+
+    <ToggleButton
+        android:id="@+id/tb_tomada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:checked="true"
+        android:text="Tomada"
+        android:textOff="Desligado"
+        android:textOn="Ligado" />
+
+    <CheckBox
+        android:background="@drawable/status"
+        android:button="@null"
+        android:checked="true"
+        android:layout_width="80dp"
+        android:layout_height="80dp" />
+
+
+</LinearLayout>

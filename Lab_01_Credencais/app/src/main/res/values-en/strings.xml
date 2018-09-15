@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Sales Force</string>
+
+
+    <string name="titulo_credenciais">Credencial</string>
+    <string name="label_nome">Name</string>
+    <string name="label_senha">Password</string>
+    <string name="label_btn_cancelar">Cancel</string>
+    <string name="label_btn_login">Login</string>
+
+    <string name="warning_nome">Erro: Nome é Obrigatório!!!</string>
+    <string name="warning_senha">Erro: Senha é Obrigatória!!!</string>
+    <string name="warning_credenciais">Erro: Credenciais Invalidas!!!</string>
+    <string name="mensagem_credenciais_validas">Credenciais Validas</string>
+</resources>

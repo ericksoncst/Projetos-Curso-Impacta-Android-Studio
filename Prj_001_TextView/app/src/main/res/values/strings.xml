@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Prj_001_TextView</string>
+
+    <string name="titulo">Credencial</string>
+
+    <color name="teste">#FF00FF00</color>
+
+
+</resources>
